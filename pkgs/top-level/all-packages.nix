@@ -13191,6 +13191,8 @@ with pkgs;
 
   stellar-core = self.altcoins.stellar-core;
 
+  zcashd = self.altcoins.zcashd;
+
   aumix = callPackage ../applications/audio/aumix {
     gtkGUI = false;
   };

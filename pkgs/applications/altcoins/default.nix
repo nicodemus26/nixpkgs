@@ -42,4 +42,6 @@ rec {
   primecoind = callPackage ./primecoin.nix { withGui = false; };
 
   stellar-core = callPackage ./stellar-core.nix { };
+
+  zcashd = callPackage ./zcash.nix { };
 }
